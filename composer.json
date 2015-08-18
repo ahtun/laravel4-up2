@@ -1,0 +1,31 @@
+{
+    "name": "ahtun/up2",
+    "description": "UP2 is a file uploader with polymorphic relations.",
+    "keywords": ["laravel", "laravel4", "upload", "resize"],
+    "homepage": "https://github.com/ahtun/laravel4-up2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ahtun",
+            "email": "a@ahtun.id.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "imagine/imagine": "v0.6.1",
+        "league/flysystem-aws-s3-v2": "1.0.1"
+    },
+    "require-dev": {
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "ahtun\\Up2": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
